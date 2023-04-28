@@ -1,7 +1,8 @@
 /* Custom styles */
 
 /* Set max-width to prevent horizontal scrolling */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -10,6 +11,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
+  background-color: #f1f0f0;
 }
 
 /* Set font color and text decoration for menu links */
@@ -50,7 +52,7 @@ body {
 
 /* Set background color for navbar */
 .navbar {
-  background-color: #ffffff;
+  background-color: none;
   padding: 0 10px;
 }
 
@@ -66,21 +68,23 @@ body {
 
 /* Set background color and padding for content container */
 .container-fluid {
+  height: 100%;
   background-color: #f1f0f0;
   padding: 20px;
 }
 
 /* Set max-width for content container */
-.container-fluid > .row {
+.container-fluid>.row {
   max-width: 1200px;
   margin: auto;
 }
 
 /* Set text alignment and margin for headings */
-h2, h3 {
+/* h2,
+h3 {
   text-align: center;
   margin-top: 0;
-}
+} */
 
 /* Set margin for paragraph */
 p {
