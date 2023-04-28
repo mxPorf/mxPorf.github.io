@@ -89,3 +89,28 @@ h3 {
 p {
   margin-bottom: 20px;
 }
+
+/*Style the buttons in the homepage*/
+.btn-round {
+  border-radius: 50%;
+  min-width: 100px;
+  max-width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #484848;
+}
+
+.btn-portfolio {
+  background-color: rgba(157, 182, 189, 1);
+}
+
+.btn-resume {
+  background-color: rgba(157, 182, 189, .6);
+}
+
+.btn-contact {
+  background-color: rgba(157, 182, 189, .4);
+}
