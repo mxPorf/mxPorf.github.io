@@ -1,0 +1,88 @@
+/* Custom styles */
+
+/* Set max-width to prevent horizontal scrolling */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Set margin and padding to zero for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font color and text decoration for menu links */
+.navbar-light .navbar-nav .nav-link {
+  color: #484848;
+  text-decoration: none;
+}
+
+/* Set underline effect on menu links on hover */
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Set background color and font color for circular buttons */
+.btn-lg {
+  background-color: #9db6bd;
+  color: #ffffff;
+  border: none;
+  margin: 5px;
+}
+
+/* Set border radius for circular buttons */
+.rounded-circle {
+  border-radius: 50%;
+}
+
+/* Set background color and font color for active menu link */
+.navbar-light .navbar-nav .nav-link.active {
+  background-color: #ffffff;
+  color: #484848;
+}
+
+/* Set active menu link on click */
+.navbar-light .navbar-nav .nav-link:focus {
+  background-color: #ffffff;
+  color: #484848;
+}
+
+/* Set background color for navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 0 10px;
+}
+
+/* Set font weight for navbar brand */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Set font color for navbar subtitle */
+.navbar-text {
+  color: #484848;
+}
+
+/* Set background color and padding for content container */
+.container-fluid {
+  background-color: #f1f0f0;
+  padding: 20px;
+}
+
+/* Set max-width for content container */
+.container-fluid > .row {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Set text alignment and margin for headings */
+h2, h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Set margin for paragraph */
+p {
+  margin-bottom: 20px;
+}
