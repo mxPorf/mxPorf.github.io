@@ -109,3 +109,25 @@ p {
 .btn-contact {
   background-color: rgba(157, 182, 189, .4);
 }
+
+.btn-long {
+  border-radius: 25px;
+  border: 2px solid #999;
+  padding: 10px 20px;
+  text-align: center;
+  color: #484848;
+  transition: all .3s ease-in-out;
+  width: 70%; /* set width to 60% */
+}
+
+.btn-long:active {
+  color: #484848;
+  background-color: #f1f0f0;
+  border-color: #999;
+}
+
+.btn-round:active {
+  color: #484848;
+  background-color: #f1f0f0;
+  border-color: #999;
+}
