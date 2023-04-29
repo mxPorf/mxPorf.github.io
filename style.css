@@ -65,6 +65,7 @@ body {
   color: #484848;
 }
 
+/*
 /* Set background color and padding for content container */
 .container-fluid {
   height: 100%;
@@ -77,13 +78,7 @@ body {
   max-width: 1200px;
   margin: auto;
 }
-
-/* Set text alignment and margin for headings */
-/* h2,
-h3 {
-  text-align: center;
-  margin-top: 0;
-} */
+*/
 
 /* Set margin for paragraph */
 p {
