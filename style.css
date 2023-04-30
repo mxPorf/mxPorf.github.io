@@ -65,20 +65,20 @@ body {
   color: #484848;
 }
 
-/*
+
 /* Set background color and padding for content container */
-.container-fluid {
+/* .container-fluid {
   height: 100%;
   background-color: #f1f0f0;
   padding: 20px;
-}
+} */
 
 /* Set max-width for content container */
-.container-fluid>.row {
+/* .container-fluid>.row {
   max-width: 1200px;
   margin: auto;
-}
-*/
+} */
+
 
 /* Set margin for paragraph */
 p {
@@ -88,9 +88,9 @@ p {
 /*Style the buttons in the homepage*/
 .btn-round {
   border-radius: 50%;
-  min-width: 100px;
-  max-width: 100px;
-  height: 100px;
+  min-width: 120px;
+  max-width: 120px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,8 @@ p {
   text-align: center;
   color: #484848;
   transition: all .3s ease-in-out;
-  width: 70%; /* set width to 60% */
+  width: 70%;
+  /* set width to 60% */
 }
 
 .btn-long:active {
