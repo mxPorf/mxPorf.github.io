@@ -1,0 +1,10 @@
+Considered projects for the portfolio page:
+AutoML on Amazon Web Services
+Deeplearning workflow on Amazon Web Services
+Prediction of survival rates ini the Emergency Department
+US national parks biodiversity
+	Data visualization and communication for collaboration with various stakeholders. Statistical analysis
+Ok Cupid: Date a scientist
+	Recommender system using Kmeans clustering as engine
+Comparing GDP vs. Life Expectancy
+	Descriptive statistical analysis of the data, gleaning correspondence on the variaables studied, graphically depicted
