@@ -6,12 +6,13 @@
     <title>My Page</title>
     <meta name="description" content="An overview of my professional profile!">
     <meta name="keywords"
-        content="HTML5, Bootstrap, CSS, Machine Learning, hire, Machine Learning engineer, experience">
+        content="Python, Deep Learning, Artificial Inelligence, Machine Learning, Software engineering">
     <meta name="author" content="Porfirio Basaldua">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -28,12 +29,12 @@
 <body>
     <div class="container-fluid d-flex flex-column align-items-start justify-content-center">
         <!-- Menu bar -->
-        <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <nav class="navbar navbar-expand-md navbar-light w-100 my-4">
             <div class="justify-content-start">
-                <a class="navbar-brand font-weight-bold mr-1" href="index.html">My Page</a>
-                <span class="navbar-text">Subtitle</span>
+                <a class="navbar-brand font-weight-bold mr-1" href="index.html">Porfirio Basaldua</a>
+                <span class="navbar-text d-none d-md-inline">Software Engineer</span>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,7 +44,7 @@
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -51,12 +52,114 @@
                 </ul>
             </div>
         </nav>
-
         <!-- Content -->
-        <div class="row align-items-center  mt-4 mb-4 ml-2 mr-2">
-            <p>This is my work</p>
+        <div class="container-fluid my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row justify-content-md-end">
+                        <div class="col-md-6 text-md-end text-center">
+                            <h2>AutoML on Amazon Web Services</h2>
+                            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nulla sed ante ullamcorper,
+                                commodo ligula in, aliquet nisl. Fusce maximus feugiat gravida. Praesent pretium, arcu
+                                et placerat bibendum, risus quam finibus tellus, eget suscipit urna ex ac felis. In
+                                suscipit viverra faucibus. Mauris tristique porta lectus iaculis eleifend. Orci varius
+                                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In egestas
+                                odio vitae ullamcorper facilisis. Phasellus ullamcorper dolor eu tortor finibus, sed
+                                aliquam tellus suscipit. Donec dapibus urna et magna ultricies, vitae viverra massa
+                                eleifend. <a href="https://github.com/your-project1-repo" target="_blank">See on
+                                    Github</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-md-start text-center">
+                            <a href="https://project1-website.com" target="_blank"><img
+                                    src="https://via.placeholder.com/300x200" alt="Project 1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mb-4">
+                <!-- <div class="col-md-6 text-md-end text-center">
+                    <h2>AutoML on Amazon Web Services</h2>
+                    <p>Description of project 1</p>
+                    <a href="https://github.com/your-project1-repo" target="_blank">See on Github</a>
+                </div> -->
+                <!-- <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project1-website.com" target="_blank"><img
+                            src="https://via.placeholder.com/300x200" alt="Project 1"></a>
+                </div> -->
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 text-md-end text-center">
+                    <h2>Deeplearning worflow on Amazon Web Services</h2>
+                    <p>Description of project 2</p>
+                    <a href="https://github.com/your-project2-repo" target="_blank">See on Github</a>
+                </div>
+                <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project2-website.com" target="_blank"><img
+                            src="https://via.placeholder.com/300x200" alt="Project 2"></a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 text-md-end text-center">
+                    <h2>Prediction of survival rates in the Emergency Department</h2>
+                    <p>Description of project 3</p>
+                    <a href="https://github.com/your-project3-repo" target="_blank">See on Github</a>
+                </div>
+                <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project3-website.com" target="_blank"><img
+                            src="https://via.placeholder.com/300x200" alt="Project 3"></a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 text-md-end text-center">
+                    <h2>US national parks biodiversity</h2>
+                    <p style="text-align: justify;">Data visualization and communication for collaboration with various
+                        stakeholders. Statistical
+                        analysis </p>
+                    <a href="https://github.com/your-project4-repo" target="_blank">See on Github</a>
+                </div>
+                <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project4-website.com" target="_blank"><img src="project4-image.jpg"
+                            alt="Project 4"></a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 text-md-end text-center">
+                    <h2>Ok Cupid: Date a scientist</h2>
+                    <p>Recommender system using KMeans clustering</p>
+                    <a href="https://github.com/your-project5-repo" target="_blank">See on Github</a>
+                </div>
+                <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project5-website.com" target="_blank"><img src="project5-image.jpg"
+                            alt="Project 5"></a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 text-md-end text-center">
+                    <h2>Comparing GDP vs. Life Expectancy</h2>
+                    <p>Data analysis and visualization, descriptive statistics</p>
+                    <a href="https://github.com/your-project6-repo" target="_blank">See on Github</a>
+                </div>
+                <div class="col-md-6 text-md-start text-center">
+                    <a href="https://project6-website.com" target="_blank"><img src="project6-image.jpg"
+                            alt="Project 6"></a>
+                </div>
+            </div>
         </div>
-        <footer class="container-fluid">
+        <!-- Footer -->
+        <footer class="container mt-md-5">
             <div class="row">
                 <div class="col-md-3">
                     <h4>Phone</h4>
@@ -66,18 +169,20 @@
                     <h4>Email</h4>
                     <p>PorfirioBasaldua@gmail.com</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <h4>Follow Me</h4>
                     <p><a href="https://www.linkedin.com/in/basporfirio" target="_blank"><i
-                                class="fab fa-linkedin fa-lg" style="color: black;"></i></a></p>
+                                class="fab fa-linkedin fa-lg" style="color: black;"></i></a>&nbsp;<a
+                            href="https://github.com/mxPorf" target="_blank"><i class="fab fa-github fa-lg"
+                                style="color: black;"></i></a></p>
                 </div>
-                <div class="col-md-4">
-                    <h4></h4>
-                    <p class="mt-sm-4 mt-md-2 mb-md-0">&copy; 2023 Porfirio Basaldua <i class="fas fa-circle fa-xs"></i>
-                        All
-                        Rights
-                        Reserved. </p>
-                    <p class="mt-sm-4 mt-md-0">This page was built with the help of generative AI technologies.</p>
+                <div class="col-md-3 text-justify">
+                    <p class="mt-sm-4 mt-md-0"><small>This page was built with the help of generative AI
+                            technologies.</small></p>
+                    <p class="mt-sm-4 mt-md-2 mb-md-0"><small>&copy; 2023 Porfirio Basaldua <i
+                                class="fas fa-circle fa-xs"></i>
+                            All
+                            Rights Reserved. </small></p>
                 </div>
             </div>
         </footer>
@@ -85,7 +190,13 @@
 
     <!-- jQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
