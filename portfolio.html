@@ -191,37 +191,6 @@
             </div>
         </footer>
     </div>
-
-    <!-- Back-to-top button -->
-    <a href="#" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- JavaScript to show/hide button when scrolling -->
-    <script>
-        // Get the button element
-        var button = document.querySelector('.back-to-top');
-
-        // Function to check if user has scrolled past one screen height
-        function checkScroll() {
-            // Get current scroll position
-            var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-            // If scrolled past one screen height, show button
-            if (scrollPosition > window.innerHeight) {
-                button.classList.add('show');
-            } else {
-                button.classList.remove('show');
-            }
-        }
-
-        // Add event listeners for scrolling and clicking the button
-        window.addEventListener('scroll', checkScroll);
-        button.addEventListener('click', function () {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    </script>
-
     <!-- jQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
