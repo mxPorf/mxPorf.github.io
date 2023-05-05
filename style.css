@@ -117,3 +117,7 @@ p {
   background-color: #f1f0f0;
   border-color: #999;
 }
+
+p { 
+  text-align: justify;
+}
